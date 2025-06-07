@@ -1,4 +1,4 @@
-let argumentNumber = ["Best", "School"];
+let argumentNumber = [];
 if( argumentNumber.length === 0){
     console.log('No argument');
 }
