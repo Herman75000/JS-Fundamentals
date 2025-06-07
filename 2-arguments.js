@@ -1,33 +1,10 @@
-let argumentNumber = 0;
-switch(argumentNumber){
-    case 0:
-        console.log('No argument');
-        break;
-        case 1:
-            console.log('Argument found')
-            break
-        default:
-        console.log('Arguments found') 
+let argumentNumber = ['Best', 'School'];
+if( argumentNumber.length === 0){
+    console.log('No argument');
 }
-argumentNumber = 1;
-switch(argumentNumber){
-    case 0:
-        console.log('No argument');
-        break;
-        case 1:
-            console.log('Argument found')
-            break
-        default:
-        console.log('Arguments found') 
+else if(argumentNumber.length === 1 ){
+    console.log("Argument found");
 }
-argumentNumber = 3;
-switch(argumentNumber){
-    case 0:
-        console.log('No argument');
-        break;
-        case 1:
-            console.log('Argument found')
-            break
-        default:
-        console.log('Arguments found') 
+else if(argumentNumber.length >= 2){
+    console.log('Arguments found');
 }
